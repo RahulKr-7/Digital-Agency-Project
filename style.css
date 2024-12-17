@@ -527,3 +527,51 @@
     border-radius: 3px;
     transition: all 0.15s ease-in-out;
   }
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  header {
+    padding: 10px 0;
+  }
+  nav ul a {
+    font-size: 16px;
+  }
+  #home {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  #home h1 {
+    font-size: 28px;
+  }
+  #home p {
+    font-size: 14px;
+  }
+  #about h2,
+  #about h6,
+  #testimonial .headings h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  #projects ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #projects button {
+    font-size: 16px;
+  }
+  #team .headings p,
+  #testimonial .headings p {
+    width: 100%;
+  }
+  footer .subscribe {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .typeYoutEmail {
+    margin-left: 0;
+    width: 100%;
+  }
+}
